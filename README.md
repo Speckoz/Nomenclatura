@@ -4,15 +4,6 @@
 
 OBS: TODOS OS EXEMPLOS A SEGUIR SÃO APENAS PARA ENTENDIMENTO DE ALGUM PADRÃO, NENHUM DELES POSSUEM OBRIGATÓRIAMENTE UMA FUNCÃO REAL FORA DESSE .MD
 
-## Namespaces
-Padrao PascalCase.<br/>
-{Empresa/Organização/Projeto}.Assembly.Pastas...<br/>
-Exemplo:<br/>
-```csharp
-namespace SIGI.Managers.Base.ViewModels
-{}
-```
-
 ## Nomes de arquivos
 Padrao PascalCase contendo o prefixo ou sufixo do arquivo, Exemplo:<br/>
 Enums: NomeArquivoEnum.cs<br/>
@@ -22,6 +13,15 @@ Models: NomeArquivoModel.cs<br/>
 Views: NomeArquivoView.cs<br/>
 ViewModels: NomeArquivoViewModel.cs<br/>
 Controllers: NomeArquivoController.cs<br/>
+
+## Namespaces
+Padrao PascalCase.<br/>
+{Empresa/Organização/Projeto}.Assembly.Pastas...<br/>
+Exemplo:<br/>
+```csharp
+namespace SIGI.Managers.Base.ViewModels
+{}
+```
 
 ## Classes, Interfaces, Structs e Enums
 ### Classes e Structs
