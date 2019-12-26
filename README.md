@@ -6,7 +6,7 @@ OBS: TODOS OS EXEMPLOS A SEGUIR SÃO APENAS PARA ENTENDIMENTO DE ALGUM PADRÃO, 
 
 ## Namespaces
 Padrao PascalCase.<br/>
-{Empresa/Organização}.Assembly.Pastas...<br/>
+{Empresa/Organização/Projeto}.Assembly.Pastas...<br/>
 Exemplo:<br/>
 ```csharp
 namespace SIGI.Managers.Base.ViewModels
