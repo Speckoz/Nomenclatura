@@ -5,7 +5,7 @@
 OBS: TODOS OS EXEMPLOS A SEGUIR SÃO APENAS PARA ENTENDIMENTO DE ALGUM PADRÃO, NENHUM DELES POSSUEM OBRIGATÓRIAMENTE UMA FUNCÃO REAL FORA DESSE .MD
 
 ## Nomes de arquivos
-Padrao PascalCase contendo o prefixo ou sufixo do arquivo, Exemplo:<br/>
+**Padrao PascalCase contendo o prefixo ou sufixo do arquivo, Exemplo:**<br/>
 Enums: NomeArquivoEnum.cs<br/>
 Interfaces: INomeArquivo.cs<br/>
 
@@ -15,7 +15,7 @@ ViewModels: NomeArquivoViewModel.cs<br/>
 Controllers: NomeArquivoController.cs<br/>
 
 ## Namespaces
-Padrao PascalCase.<br/>
+**Padrao PascalCase.**<br/>
 {Empresa/Organização/Projeto}.Assembly.Pastas...<br/>
 Exemplo:<br/>
 ```csharp
@@ -25,7 +25,7 @@ namespace SIGI.Managers.Base.ViewModels
 
 ## Classes, Interfaces, Structs e Enums
 ### Classes e Structs
-Padrao PascalCase.<br/>
+**Padrao PascalCase.**<br/>
 NomeDaClasseOuStruct<br/>
 Exemplo:<br/>
 ```csharp
@@ -35,13 +35,13 @@ public struct AlunoCadastrado {}
 ```
 
 ### Interfaces
-As interfaces seguem o mesmo padrao PascalCase, porem, iniciando com um I maiúsculo, exemplo:
+**As interfaces seguem o mesmo padrao PascalCase, porem, iniciando com um I maiúsculo, exemplo:**
 ```csharp
 public interface IUsuarioBase {}
 ```
 
 ### Enums
-Para os Enums seguisse o mesmo PascalCase para o nome do Enum quanto para o nome de seus itens.<br/>
+**Para os Enums seguisse o mesmo PascalCase para o nome do Enum quanto para o nome de seus itens.**<br/>
 Exemplo:<br/>
 ```csharp
 public enum TipoUsuario : uint
@@ -52,17 +52,17 @@ public enum TipoUsuario : uint
 
 ## Membros
 ### Campos e Readonly
-Os campos seguem por padrao o camelCase porem existem exceções.<br/>
+**Os campos seguem por padrao o camelCase porem existem exceções.**<br/>
 Em hipótese alguma campos devem ser publicos, para isso use Propriedades, Indexadores ou metodos de acordo com [Campos c#](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/fields).<br/>
 
 #### Campos normais
-Para campos utilizados como uma variável comum, usa-se:<br/>
+**Para campos utilizados como uma variável comum, usa-se:**<br/>
 ```csharp
 private string testeUsuario;
 ```
 
 #### Campos de propriedades completas
-Para campos utilizados em propriedades completas, deve-se iniciar com dois underline (\_\_) e seguir com o padrao camelCase.<br/>
+**Para campos utilizados em propriedades completas, deve-se iniciar com dois underline (\_\_) e seguir com o padrao camelCase.**<br/>
 Exemplo:<br/>
 ```csharp
 private string __tipoUsuario;
@@ -76,13 +76,13 @@ public string TipoUsuario
 Lembrando que o nome do campo deve ser o mesmo da propriedade, com a exceção do *underline* e o padrao camelCase.<br/>
 
 #### Campos somente leitura (readonly)
-Para campos readonly, deve-se iniciar com um underline (\_) e seguir com o padrao camelCase.<br/>
+**Para campos readonly, deve-se iniciar com um underline (\_) e seguir com o padrao camelCase.**<br/>
 ```csharp
 private readonly IUserBase _testeUsuario;
 ```
 
 ### Propriedades e Constantes
-Padrao PascalCase + sufixo na propriedade caso exista.<br/>
+**Padrao PascalCase + sufixo na propriedade caso exista.**<br/>
 Exemplo:<br/>
 ```csharp
 const string UsuarioTeste = "SIGI";
@@ -93,14 +93,14 @@ public Guid UsuarioId { get; set; }
 ```
 
 ### Metodos e Parametros
-Os *metodos* devem seguir o padrao _PascalCase_, enquanto os *parametros* _camelCase_.<br/>
+**Os *metodos* devem seguir o padrao _PascalCase_, enquanto os *parametros* _camelCase_.**<br/>
 Exemplo:<br/>
 ```csharp
 private Modelo EncontrarModelo(ModeloEnum modelo) => new Modelo(modelo);
 ```
 
 #### Metodos aninhandos
-Caso um metodo tenha varios codigos repetidos, a criaçao de um metodo anininhado é recomendado.<br/>
+**Caso um metodo tenha varios codigos repetidos, a criaçao de um metodo anininhado é recomendado.**<br/>
 Exemplo:<br/>
 ```csharp
 private void VerificarModelo(ModeloEnum modelo)
@@ -127,7 +127,7 @@ private void VerificarModelo(ModeloEnum modelo)
 ```
 
 ### Variaveis locais com tipos implicitos e explicitos.
-Ao criar uma variável local, deve-se verificar se o retorno da expressão está explicito ou não.<br/>
+**Ao criar uma variável local, deve-se verificar se o retorno da expressão está explicito ou não.**<br/>
 Exemplo:
 ```csharp
 private void EncontrarModelo(ModeloEnum modelo)
@@ -158,7 +158,7 @@ private void EncontrarModelo(ModeloEnum modelo)
 ```
 
 #### Descarte (Opcional)
-Para metodos que retornam um valor, porém não é utilizado, recomendamos o uso do [Descarte](https://docs.microsoft.com/pt-br/dotnet/csharp/discards) ( \_ ).<br/>
+**Para metodos que retornam um valor, porém não é utilizado, recomendamos o uso do [Descarte]**(https://docs.microsoft.com/pt-br/dotnet/csharp/discards) ( \_ ).<br/>
 Exemplo:<br/>
 ```csharp
 private void EncontrarModelo(ModeloEnum modelo)
@@ -171,7 +171,7 @@ private void EncontrarModelo(ModeloEnum modelo)
 ```
 
 ## Alguns sufixos
-Caso o membro seja uma propriedade que faz binding com command de um button, deve-se seguir:
+**Caso o membro seja uma propriedade que faz binding com command de um button, deve-se seguir:**
 ```csharp
 public RelayCommand NomeAquiCommand { get; private set; }
 ```
