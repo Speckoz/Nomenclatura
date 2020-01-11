@@ -157,9 +157,9 @@ private void EncontrarModelo(ModeloEnum modelo)
 }
 ```
 
-#### [Descarte]**(https://docs.microsoft.com/pt-br/dotnet/csharp/discards) ( \_ )
+#### [Descarte](https://docs.microsoft.com/pt-br/dotnet/csharp/discards) ( \_ )
 
-**Para descarte de argumentos 'out'.**<br/>
+#####P ara descarte de argumentos 'out'.<br/>
 Exemplo:<br/>
 ```csharp
 // como a preocuçao do metodo atual é apenas saber se é possivel
@@ -169,7 +169,7 @@ Exemplo:<br/>
 private bool EhUmNumero(string value) => int.TryParse(value, out _);
 ```
 
-**Para metodos que retornam um valor, porém não é utilizado. (Opcional)**<br/>
+##### Para metodos que retornam um valor, porém não é utilizado. (Opcional)<br/>
 Exemplo:<br/>
 ```csharp
 private void EncontrarModelo(ModeloEnum modelo)
