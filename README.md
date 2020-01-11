@@ -14,9 +14,29 @@ Views: NomeArquivoView.cs<br/>
 ViewModels: NomeArquivoViewModel.cs<br/>
 Controllers: NomeArquivoController.cs<br/>
 
+## Soluçao
+(Empresa/Organização/Criador).Projeto<br/>
+Exemplo:<br/>
+```
+Speckoz.SIGI
+Specko.HentaiBlog
+Speckoz.Quiz
+Logikoz.ThemeBase
+Speckoz.BukkitDev
+```
+
+## Projetos
+Projeto.Assembly.OutroNomeDoAssembly.OutroNomeDoAssembly...<br/>
+Exemplo:<br/>
+```
+SIGI.Managers.Base
+SIGI.Managers.Mobile.Base
+SIGI.API
+```
+
 ## Namespaces
 **Padrao PascalCase.**<br/>
-{Empresa/Organização/Projeto}.Assembly.Pastas...<br/>
+Projeto.Assembly.Pastas...<br/>
 Exemplo:<br/>
 ```csharp
 namespace SIGI.Managers.Base.ViewModels
