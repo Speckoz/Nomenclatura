@@ -159,7 +159,7 @@ private void EncontrarModelo(ModeloEnum modelo)
 
 #### [Descarte](https://docs.microsoft.com/pt-br/dotnet/csharp/discards) ( \_ )
 
-#####P ara descarte de argumentos 'out'.<br/>
+##### Para descarte de argumentos 'out'.<br/>
 Exemplo:<br/>
 ```csharp
 // como a preocuçao do metodo atual é apenas saber se é possivel
