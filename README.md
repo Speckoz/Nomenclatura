@@ -157,8 +157,19 @@ private void EncontrarModelo(ModeloEnum modelo)
 }
 ```
 
-#### Descarte (Opcional)
-**Para metodos que retornam um valor, porém não é utilizado, recomendamos o uso do [Descarte]**(https://docs.microsoft.com/pt-br/dotnet/csharp/discards) ( \_ ).<br/>
+#### [Descarte]**(https://docs.microsoft.com/pt-br/dotnet/csharp/discards) ( \_ )
+
+**Para descarte de argumentos 'out'.**<br/>
+Exemplo:<br/>
+```csharp
+// como a preocuçao do metodo atual é apenas saber se é possivel
+// fazer a conversao de uma string para um int, e verificar se a conversao foi bem sucedida
+// nao ha necessidade de pegar o resultado da conversao, logo podemos inserir
+// o descarte " _ " junto ao modificador de parametro "out".
+private bool EhUmNumero(string value) => int.TryParse(value, out _);
+```
+
+**Para metodos que retornam um valor, porém não é utilizado. (Opcional)**<br/>
 Exemplo:<br/>
 ```csharp
 private void EncontrarModelo(ModeloEnum modelo)
