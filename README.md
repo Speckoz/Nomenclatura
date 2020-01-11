@@ -41,10 +41,10 @@ public interface IUsuarioBase {}
 ```
 
 ### Enums
-**Para os Enums seguisse o mesmo PascalCase para o nome do Enum quanto para o nome de seus itens.**<br/>
+**Para os Enums seguisse o mesmo PascalCase para o nome, quanto para o nome de seus itens. + o sufixo "Enum".**<br/>
 Exemplo:<br/>
 ```csharp
-public enum TipoUsuario : uint
+public enum TipoUsuarioEnum : uint
 {
     Aluno, Funcionario, Professor, Coordenador, Diretor
 }
@@ -159,7 +159,7 @@ private void EncontrarModelo(ModeloEnum modelo)
 
 #### [Descarte](https://docs.microsoft.com/pt-br/dotnet/csharp/discards) ( \_ )
 
-##### Para descarte de argumentos 'out'.<br/>
+##### Para descarte de argumentos 'out'.
 Exemplo:<br/>
 ```csharp
 // como a preocuçao do metodo atual é apenas saber se é possivel
@@ -169,7 +169,7 @@ Exemplo:<br/>
 private bool EhUmNumero(string value) => int.TryParse(value, out _);
 ```
 
-##### Para metodos que retornam um valor, porém não é utilizado. (Opcional)<br/>
+##### Para metodos que retornam um valor, porém não é utilizado. (Opcional)
 Exemplo:<br/>
 ```csharp
 private void EncontrarModelo(ModeloEnum modelo)
