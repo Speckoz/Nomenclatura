@@ -209,6 +209,7 @@ private (bool Resultado, int Tamanho) ContemLetras(string valor)
 {
     return ...;
 }
+```
 
 ## Alguns sufixos
 **Caso o membro seja uma propriedade que faz binding com command de um button, deve-se seguir:**
