@@ -201,6 +201,15 @@ private void EncontrarModelo(ModeloEnum modelo)
 }
 ```
 
+### Tuplas
+Caso opte por usar uma tupla no retorno de um metodo, o padrao Pascal Case deve ser adotado nos nomes dos valores da tupla.<br/>
+Exemplo: <br/>
+```csharp
+private (bool Resultado, int Tamanho) ContemLetras(string valor)
+{
+    return ...;
+}
+
 ## Alguns sufixos
 **Caso o membro seja uma propriedade que faz binding com command de um button, deve-se seguir:**
 ```csharp
