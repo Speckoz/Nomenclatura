@@ -5,7 +5,8 @@
 OBS: TODOS OS EXEMPLOS A SEGUIR SÃO APENAS PARA ENTENDIMENTO DE ALGUM PADRÃO, NENHUM DELES POSSUEM OBRIGATÓRIAMENTE UMA FUNCÃO REAL FORA DESSE .MD
 
 ## Nomes de arquivos
-**Padrao PascalCase contendo o prefixo ou sufixo do arquivo, Exemplo:**<br/>
+**Padrao PascalCase contendo o prefixo ou sufixo do(s) tipo(s) que contém.<br/>**
+Exemplo:<br/>
 Enums: NomeArquivoEnum.cs<br/>
 Interfaces: INomeArquivo.cs<br/>
 
