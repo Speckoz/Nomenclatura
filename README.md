@@ -4,6 +4,21 @@
 
 OBS: TODOS OS EXEMPLOS A SEGUIR SÃO APENAS PARA ENTENDIMENTO DE ALGUM PADRÃO, NENHUM DELES POSSUEM OBRIGATÓRIAMENTE UMA FUNCÃO REAL FORA DESSE .MD
 
+## Sumário
+- [Solução](https://github.com/Speckoz/Nomenclatura#solu%C3%A7ao)
+- [Projetos](https://github.com/Speckoz/Nomenclatura#projetos)
+- [Nome de arquivos](https://github.com/Speckoz/Nomenclatura#nomes-de-arquivos)
+- [Classes, Interfaces, Structs e Enums](https://github.com/Speckoz/Nomenclatura#classes-interfaces-structs-e-enums)
+- - [Classes e Structs](https://github.com/Speckoz/Nomenclatura#classes-e-structs)
+- - [Interfaces](https://github.com/Speckoz/Nomenclatura#interfaces)
+- - [Enums](https://github.com/Speckoz/Nomenclatura#enums)
+- [Membros](https://github.com/Speckoz/Nomenclatura#enums)
+- - [Campos e Readonly](https://github.com/Speckoz/Nomenclatura#campos-e-readonly)
+- - - [Campos normais](https://github.com/Speckoz/Nomenclatura#campos-normais)
+- - - [Campos de propriedades completas](https://github.com/Speckoz/Nomenclatura#campos-de-propriedades-completas)
+- - - [Campos somente leitura (readonly)](https://github.com/Speckoz/Nomenclatura#campos-somente-leitura-readonly)
+
+
 ## Soluçao
 (Empresa/Organização/Criador).Projeto<br/>
 Exemplo:<br/>
