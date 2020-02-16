@@ -4,17 +4,6 @@
 
 OBS: TODOS OS EXEMPLOS A SEGUIR SÃO APENAS PARA ENTENDIMENTO DE ALGUM PADRÃO, NENHUM DELES POSSUEM OBRIGATÓRIAMENTE UMA FUNCÃO REAL FORA DESSE .MD
 
-## Nomes de arquivos
-**Padrao PascalCase contendo o prefixo ou sufixo do(s) tipo(s) que contém.<br/>**
-Exemplo:<br/>
-Enums: NomeArquivoEnum.cs<br/>
-Interfaces: INomeArquivo.cs<br/>
-
-Models: NomeArquivoModel.cs<br/>
-Views: NomeArquivoView.cs<br/>
-ViewModels: NomeArquivoViewModel.cs<br/>
-Controllers: NomeArquivoController.cs<br/>
-
 ## Soluçao
 (Empresa/Organização/Criador).Projeto<br/>
 Exemplo:<br/>
@@ -34,6 +23,18 @@ SIGI.Managers.Base
 SIGI.Managers.Mobile.Base
 SIGI.API
 ```
+
+## Nomes de arquivos
+**Padrao PascalCase contendo o prefixo ou sufixo do(s) tipo(s) que contém.<br/>**
+Exemplo:<br/>
+Enums: NomeArquivoEnum.cs<br/>
+Interfaces: INomeArquivo.cs<br/>
+
+Models: NomeArquivoModel.cs<br/>
+Views: NomeArquivoView.cs<br/>
+ViewModels: NomeArquivoViewModel.cs<br/>
+Controllers: NomeArquivoController.cs<br/>
+
 
 ## Namespaces
 **Padrao PascalCase.**<br/>
@@ -121,7 +122,7 @@ private Modelo EncontrarModelo(ModeloEnum modelo) => new Modelo(modelo);
 ```
 
 #### Metodos aninhandos
-**Caso um metodo tenha varios codigos repetidos, a criaçao de um metodo anininhado é recomendado.**<br/>
+**Caso um metodo tenha varios codigos repetidos ou uma expressão muito grande como operacoes booleanas, a criaçao de um metodo anininhado é recomendado.**<br/>
 Exemplo:<br/>
 ```csharp
 private void VerificarModelo(ModeloEnum modelo)
