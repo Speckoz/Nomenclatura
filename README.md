@@ -17,7 +17,12 @@ OBS: TODOS OS EXEMPLOS A SEGUIR SÃO APENAS PARA ENTENDIMENTO DE ALGUM PADRÃO, 
 - - - [Campos normais](https://github.com/Speckoz/Nomenclatura#campos-normais)
 - - - [Campos de propriedades completas](https://github.com/Speckoz/Nomenclatura#campos-de-propriedades-completas)
 - - - [Campos somente leitura (readonly)](https://github.com/Speckoz/Nomenclatura#campos-somente-leitura-readonly)
-
+- - [Propriedades e Constantes](https://github.com/Speckoz/Nomenclatura#propriedades-e-constantes)
+- - [Metodos e Parametros](https://github.com/Speckoz/Nomenclatura#metodos-e-parametros)
+- - - [Metodos aninhandos](https://github.com/Speckoz/Nomenclatura#metodos-aninhandos)
+- - [Variaveis locais com tipos implicitos e explicitos](https://github.com/Speckoz/Nomenclatura#variaveis-locais-com-tipos-implicitos-e-explicitos)
+- - - [Descarte](https://github.com/Speckoz/Nomenclatura#descarte--_-)
+- - [Tuplas](https://github.com/Speckoz/Nomenclatura#tuplas)
 
 ## Soluçao
 (Empresa/Organização/Criador).Projeto<br/>
