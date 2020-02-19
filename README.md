@@ -23,6 +23,7 @@ OBS: TODOS OS EXEMPLOS A SEGUIR SÃO APENAS PARA ENTENDIMENTO DE ALGUM PADRÃO, 
 - - [Variaveis locais com tipos implicitos e explicitos](https://github.com/Speckoz/Nomenclatura#variaveis-locais-com-tipos-implicitos-e-explicitos)
 - - - [Descarte](https://github.com/Speckoz/Nomenclatura#descarte--_-)
 - - [Tuplas](https://github.com/Speckoz/Nomenclatura#tuplas)
+- [Sufixos](https://github.com/Speckoz/Nomenclatura#alguns-sufixos)
 
 ## Soluçao
 (Empresa/Organização/Criador).Projeto<br/>
@@ -95,7 +96,7 @@ public enum TipoUsuarioEnum : uint
 ## Membros
 ### Campos e Readonly
 **Os campos seguem por padrao o camelCase porem existem exceções.**<br/>
-Em hipótese alguma campos devem ser publicos, para isso use Propriedades, Indexadores ou metodos de acordo com [Campos c#](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/fields).<br/>
+De preferência, campos não devem ser publicos, para isso use Propriedades, Indexadores ou metodos de acordo com [Campos c#](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/fields).<br/>
 
 #### Campos normais
 **Para campos utilizados como uma variável comum, usa-se:**<br/>
