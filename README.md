@@ -8,7 +8,7 @@ OBS: TODOS OS EXEMPLOS A SEGUIR SÃO APENAS PARA ENTENDIMENTO DE ALGUM PADRÃO, 
 - [Solução](https://github.com/Speckoz/Nomenclatura#solu%C3%A7ao)
 - [Projetos](https://github.com/Speckoz/Nomenclatura#projetos)
 - [Nome de arquivos](https://github.com/Speckoz/Nomenclatura#nomes-de-arquivos)
-- [Classes, Interfaces, Structs e Enums](https://github.com/Speckoz/Nomenclatura#classes-interfaces-structs-e-enums)
+- [Tipos](https://github.com/Speckoz/Nomenclatura#classes-interfaces-structs-e-enums)
 - - [Classes e Structs](https://github.com/Speckoz/Nomenclatura#classes-e-structs)
 - - [Interfaces](https://github.com/Speckoz/Nomenclatura#interfaces)
 - - [Enums](https://github.com/Speckoz/Nomenclatura#enums)
@@ -66,7 +66,7 @@ namespace SIGI.Managers.Base.ViewModels
 {}
 ```
 
-## Classes, Interfaces, Structs e Enums
+## Tipos
 ### Classes e Structs
 **Padrao PascalCase.**<br/>
 NomeDaClasseOuStruct<br/>
