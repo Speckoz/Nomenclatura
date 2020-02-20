@@ -197,31 +197,28 @@ private void EncontrarModelo(ModeloEnum modelo)
 }
 ```
 Como o metodo *PegarModelo* retorna um Coleção, e o uso do ToList() faz com que o retorno seja convertido para uma List\<T\>.
-Fica aparente para o programador que está vendo o código que retorno da expressão de atribuiçao é uma List\<T\>, logo, não a necessidade de usar o tipo **explícito**.
+Fica aparente para o programador que está vendo o código que retorno da expressão de atribuiçao é uma List\<T\>, logo, não há necessidade de usar o tipo **explícito**.
 
 #### [Descarte](https://docs.microsoft.com/pt-br/dotnet/csharp/discards) ( \_ )
 
 ##### Para descarte de argumentos 'out'.
 Exemplo:<br/>
 ```csharp
-// como a preocuçao do metodo atual é apenas saber se é possivel
-// fazer a conversao de uma string para um int, e verificar se a conversao foi bem sucedida
-// nao ha necessidade de pegar o resultado da conversao, logo podemos inserir
-// o descarte " _ " junto ao modificador de parametro "out".
 private bool EhUmNumero(string value) => int.TryParse(value, out _);
 ```
+Como a preocuçao do metodo *EhUmNumero* é apenas saber se é possível fazer a conversao de uma string para um int, e verificar se a conversao foi bem sucedida.
+Não há necessidade de pegar o resultado da conversao, logo podemos inserir o descarte **\_** junto ao modificador de parametro **out**.
 
 ##### Para metodos que retornam um valor, porém não é utilizado. (Opcional)
 Exemplo:<br/>
 ```csharp
 private void EncontrarModelo(ModeloEnum modelo)
 {
-    //Este metodo verifica se um modelo é valido, e se for, retorna TRUE, caso contrario false.
-    //Como o retorno do metodo nao é utilizado, aviso ao compilador que nao estou 
-    //usando o retorno, e assim ele pode DESCARTA-LO.
     _ = ChecarModeloValido(modelo);
 }
 ```
+O metodo **ChecarModeloValido** verifica se um modelo é válido, e se for, retorna TRUE, caso contrário false.
+Como o retorno do metodo não é utilizado, aviso ao compilador que nao estou usando o retorno, e assim ele pode descarta-lo.
 
 ### Tuplas
 Caso opte por usar uma tupla no retorno de um metodo, o padrao Pascal Case deve ser adotado nos nomes dos valores da tupla.<br/>
