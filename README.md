@@ -196,8 +196,8 @@ private void EncontrarModelo(ModeloEnum modelo)
     var retornoModelo = Utils.PegarModelo(modelo).ToList();
 }
 ```
-Como o metodo *PegarModelo* retorna um Coleção, e o uso do ToList() faz com que o retorno seja convertido para uma List<T>.
-Fica aparente para o programador que está vendo o código que retorno da expressão de atribuiçao é uma List<T>, logo, não a necessidade de usar o tipo **explicito**.
+Como o metodo *PegarModelo* retorna um Coleção, e o uso do ToList() faz com que o retorno seja convertido para uma List\<T\>.
+Fica aparente para o programador que está vendo o código que retorno da expressão de atribuiçao é uma List\<T\>, logo, não a necessidade de usar o tipo **explícito**.
 
 #### [Descarte](https://docs.microsoft.com/pt-br/dotnet/csharp/discards) ( \_ )
 
