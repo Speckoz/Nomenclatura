@@ -186,19 +186,18 @@ private void EncontrarModelo(ModeloEnum modelo)
 }
 ```
 
-Ou seja, se o retorno da expressão for uma instancia de um objeto, deve-se utilizar o tipo implicito (var) na declaraçao da variavel, caso contrario se for um metodo ou uma propriedade que retorna um objeto deve-se utilizar o tipo explicito (TipoObjeto).<br/>
+Ou seja, se o retorno da expressão for uma instancia, deve-se utilizar o tipo implicito (var) na declaraçao da variavel, caso contrario se for um metodo ou uma propriedade que retorna um objeto deve-se utilizar o tipo explicito (TipoObjeto).<br/>
 
-Porém, há alguns casos onde mesmo sem uma instância de uma classe evidente, pode se usar o tipo implícito.<br/>
+Porém, há alguns casos onde mesmo sem uma instância de uma classe evidente, pode-se usar o tipo implícito.<br/>
 Exemplo:
 ```csharp
 private void EncontrarModelo(ModeloEnum modelo)
 {
-    //Como o metodo a seguir retorna um Coleção, e o uso do ToList() 
-    //faz com que o retorno seja convertido para uma List<T>.
-    //fica aparente para o programador que está vendo o código o retorno da expressão de atribuiçao.
     var retornoModelo = Utils.PegarModelo(modelo).ToList();
 }
 ```
+Como o metodo *PegarModelo* retorna um Coleção, e o uso do ToList() faz com que o retorno seja convertido para uma List<T>.
+Fica aparente para o programador que está vendo o código que retorno da expressão de atribuiçao é uma List<T>, logo, não a necessidade de usar o tipo **explicito**.
 
 #### [Descarte](https://docs.microsoft.com/pt-br/dotnet/csharp/discards) ( \_ )
 
