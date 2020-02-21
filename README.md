@@ -236,13 +236,12 @@ private (bool Resultado, int Tamanho) ContemLetras(string valor)
 public RelayCommand NomeAquiCommand { get; private set; }
 ```
 
-**Caso um metodo seja assíncrono mas retorna void (Deve ser evitado, [leia](https://docs.microsoft.com/en-us/archive/msdn-magazine/2013/march/async-await-best-practices-in-asynchronous-programming?source=docs)) ou Task, segue-se:**
+**Caso um metodo seja assíncrono e retorne Task, segue-se:**
 ```csharp
-private async void NomeAquiAsync(...){}
 private async Task NomeAquiAsync(...){}
 ```
 
-**caso um metodo seja assíncrono e retorne um valor, segue-se:**
+**caso um metodo seja assíncrono e retorne Task\<T\>, segue-se:**
 ```csharp
 private Task<string> NomeAquiTaskAsync(...){}
 ```
