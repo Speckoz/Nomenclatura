@@ -243,5 +243,5 @@ private async Task NomeAquiAsync(...){}
 
 **caso um metodo seja assíncrono e retorne Task\<T\>, segue-se:**
 ```csharp
-private Task<string> NomeAquiTaskAsync(...){}
+private async Task<string> NomeAquiTaskAsync(...){}
 ```
