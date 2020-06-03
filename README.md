@@ -30,7 +30,7 @@ OBS: TODOS OS EXEMPLOS A SEGUIR SÃO APENAS PARA ENTENDIMENTO DE ALGUM PADRÃO, 
 Exemplo:<br/>
 ```
 Speckoz.SIGI
-Specko.HentaiBlog
+Specko.Blog
 Speckoz.Quiz
 Logikoz.ThemeBase
 Speckoz.BukkitDev
