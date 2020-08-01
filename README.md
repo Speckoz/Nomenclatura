@@ -2,8 +2,6 @@
     <h1>Nomenclatura</h1>
 </div>
 
-OBS: TODOS OS EXEMPLOS A SEGUIR SÃO APENAS PARA ENTENDIMENTO DE ALGUM PADRÃO, NENHUM DELES POSSUEM OBRIGATÓRIAMENTE UMA FUNCÃO REAL FORA DESSE .MD
-
 ## Sumário
 - [Solução](https://github.com/Speckoz/Nomenclatura#solu%C3%A7ao)
 - [Projetos](https://github.com/Speckoz/Nomenclatura#projetos)
