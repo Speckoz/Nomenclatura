@@ -2,6 +2,8 @@
     <h1>Nomenclatura</h1>
 </div>
 
+### Uma coisa que é importante ressaltar, nomenclatura é definida por cada programador, equipe ou empresa, nao existe certo ou errado. As nomenclaturas existem para padronizar como cada membro, variável, tipo e etc deve ser escrito, isso não é absoluto, podem ter exceções para cada tipo de modificador de acesso, por exemplo, e por ai vai!
+
 ## Sumário
 - [Solução](https://github.com/Speckoz/Nomenclatura#solu%C3%A7ao)
 - [Projetos](https://github.com/Speckoz/Nomenclatura#projetos)
