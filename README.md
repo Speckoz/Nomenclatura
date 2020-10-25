@@ -236,12 +236,7 @@ private (bool resultado, int tamanho) ContemLetras(string valor)
 public RelayCommand NomeAquiCommand { get; private set; }
 ```
 
-**Caso um metodo seja assíncrono e retorne Task, segue-se:**
+**Caso um metodo seja assíncrono e retorne Task ou Task<T>, segue-se:**
 ```csharp
 private async Task NomeAquiAsync(...){}
-```
-
-**caso um metodo seja assíncrono e retorne Task\<T\>, segue-se:**
-```csharp
-private async Task<string> NomeAquiTaskAsync(...){}
 ```
