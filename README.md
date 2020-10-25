@@ -221,10 +221,10 @@ O metodo **ChecarModeloValido** verifica se um modelo é válido, e se for, reto
 Como o retorno do metodo não é utilizado, aviso ao compilador que nao estou usando o retorno, e assim ele pode descarta-lo.
 
 ### Tuplas
-Caso opte por usar uma tupla no retorno de um metodo, o padrao Pascal Case deve ser adotado nos nomes dos valores da tupla.<br/>
+Caso opte por usar uma tupla no retorno de um metodo, o padrao camel case deve ser adotado nos nomes dos valores da tupla.<br/>
 Exemplo: <br/>
 ```csharp
-private (bool Resultado, int Tamanho) ContemLetras(string valor)
+private (bool resultado, int tamanho) ContemLetras(string valor)
 {
     return ...;
 }
