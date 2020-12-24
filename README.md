@@ -89,7 +89,7 @@ Exemplo:<br/>
 ```csharp
 public enum TipoUsuarioEnum : uint
 {
-    Aluno, Funcionario, Professor, Coordenador, Diretor
+    ALUNO, FUNCIONARIO, PROFESSOR, COORDENADOR_ADMINISTRATIVO, DIRETOR
 }
 ```
 
@@ -128,7 +128,7 @@ private readonly IUserBase _testeUsuario;
 **Padrao PascalCase + sufixo na propriedade caso exista.**<br/>
 Exemplo:<br/>
 ```csharp
-const string UsuarioTeste = "SIGI";
+const string USUARIO_TESTE = "SIGI";
 
 public RelayCommand<IJanelaSIGI> FecharJanelaCommand { get; private set; }
 
